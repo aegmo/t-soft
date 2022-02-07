@@ -1,5 +1,54 @@
 body {
   background: #EDEDF9;
+  padding: 50px 100px;
+}
+body ul {
+  padding-left: 0;
+  list-style-type: none;
+  margin: 0;
+}
+body section {
+  background: #fff;
+  border-radius: 25px;
+  box-shadow: 0px 6px 20px -3px #0000002b;
+}
+body section header {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+body section header .head-menu {
+  display: flex;
+  justify-content: center;
+}
+body section header .head-menu li {
+  margin: 10px;
+}
+body section header .head-menu li a {
+  color: #202142;
+  text-decoration: none;
+  font-weight: 600;
+}
+body section header .head-menu__active {
+  background: #F1F1FD;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+body section header .register {
+  text-align: right;
+}
+body section header .register a {
+  color: #202142;
+  text-decoration: none;
+  font-weight: 600;
+}
+body section header .register a:last-child {
+  background: #202142;
+  color: #fff;
+  padding: 15px 25px;
+  margin-left: 15px;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

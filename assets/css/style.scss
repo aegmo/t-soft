@@ -1,3 +1,53 @@
+$mainColor:#202142;
 body{
   background: #EDEDF9;
+  padding: 50px 100px;
+  ul{
+    padding-left: 0;
+    list-style-type: none;
+    margin: 0;
+  }
+  section{
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0px 6px 20px -3px #0000002b;
+    header{
+      display: flex;
+      padding: 30px;
+      justify-content: center;
+      align-items: center;
+      .head-menu{
+        display: flex;
+        justify-content: center;
+        li{
+          margin: 10px;
+          a{
+            color: $mainColor;
+            text-decoration: none;
+            font-weight: 600;
+          }
+        }
+        &__active{
+          background: #F1F1FD;
+          padding: 10px 20px;
+          border-radius: 30px;
+        }
+      }
+      .register{
+        text-align: right;
+        a{
+          color: $mainColor;
+          text-decoration: none;
+          font-weight: 600;
+          &:last-child{
+            background: $mainColor;
+            color: #fff;
+            padding: 15px 25px;
+            margin-left: 15px;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
 }
