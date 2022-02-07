@@ -1,3 +1,7 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 body {
   background: #EDEDF9;
   padding: 50px 100px;
@@ -17,6 +21,7 @@ body section header {
   padding: 30px;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid #ddd;
 }
 body section header .head-menu {
   display: flex;
@@ -49,6 +54,82 @@ body section header .register a:last-child {
   padding: 15px 25px;
   margin-left: 15px;
   border-radius: 10px;
+}
+body section main .search-area {
+  background: #FCFCFF;
+  padding: 100px 0;
+  text-align: center;
+  color: #202142;
+}
+body section main .search-area__title {
+  font-size: 22px;
+  font-weight: bold;
+}
+body section main .search-area__desc {
+  font-size: 18px;
+}
+body section main .result-area {
+  padding: 30px;
+}
+body section main .result-area__box {
+  margin-top: 30px;
+}
+body section main .result-area__box .col-lg-4 .d-flex {
+  align-items: center;
+  margin-top: 20px;
+}
+body section main .result-area__box .small-img {
+  width: 20%;
+}
+body section main .result-area__icons {
+  display: flex;
+  justify-content: flex-end;
+}
+body section main .result-area__icons li {
+  padding: 10px;
+  background: #FCFCFF;
+  border: 1px solid #EFEFFF;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+body section main .result-area__left-btns {
+  background: #EFEFFF;
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+}
+body section main .result-area__left-btns input {
+  display: none;
+}
+body section main .result-area__left-btns input:checked + label {
+  background: #fff;
+}
+body section main .result-area__left-btns label {
+  padding: 10px 20px;
+  margin-bottom: 0;
+  cursor: pointer;
+  border: 1px solid #EFEFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 15px -10px rgba(2, 5, 132, 0.05);
+  border-radius: 45px;
+}
+body section main .result-area .head-menu {
+  display: flex;
+  justify-content: center;
+}
+body section main .result-area .head-menu li {
+  margin: 10px;
+}
+body section main .result-area .head-menu li a {
+  color: #202142;
+  text-decoration: none;
+  font-weight: 600;
+}
+body section main .result-area .head-menu__active {
+  background: #F1F1FD;
+  padding: 10px 20px;
+  border-radius: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

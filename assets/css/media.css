@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+  body header {
+    display: block !important;
+    padding: 15px !important;
+  }
+  body header .col-lg-2 {
+    text-align: center !important;
+  }
+  body header .head-menu {
+    margin-top: 10px;
+    justify-content: start !important;
+  }
+  body header .head-menu li {
+    margin: 0 5px !important;
+  }
+  body header .head-menu li a {
+    font-size: 12px;
+  }
+  body header .head-menu__active {
+    padding: 5px !important;
+  }
+  body header .register {
+    margin-top: 10px;
+  }
+  body header .register a {
+    font-size: 12px;
+  }
+  body header .register a:last-child {
+    padding: 5px 10px !important;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
