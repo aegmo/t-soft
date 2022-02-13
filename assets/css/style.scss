@@ -1,4 +1,5 @@
 $mainColor:#202142;
+$grayColor:#EFEFFF;
 *{
   font-family: 'Poppins', sans-serif;
 }
@@ -66,9 +67,55 @@ body{
         &__desc{
           font-size: 18px;
         }
+        &__search-box{
+          background: #FFFFFF;
+          border: 1px solid $grayColor;
+          box-sizing: border-box;
+          box-shadow: 0px 16px 35px -15px rgba(2, 5, 132, 0.15);
+          border-radius: 10px;
+          display: inline-block;
+          padding:15px;
+          position: relative;
+          select{
+            border: none;
+            min-height: 42px;
+            &:focus{
+              outline: none !important;
+            }
+          }
+          input{
+            border:none;
+            margin-left: 20px;
+            padding-left: 65px;
+            position: relative;
+            border-left: 1px solid $grayColor;
+            min-height: 42px;
+            min-width: 430px;
+            &:focus{
+              outline: none !important;
+            }
+          }
+          svg{
+            position: absolute;
+            left: 0;
+            right: 26%;
+            top: 19px;
+            margin: auto;
+          }
+        }
       }
       .result-area{
         padding: 30px;
+        &__img-icon{
+          position: absolute;
+          left: 6%;
+          top: 4%;
+          background: #fff;
+          padding: 14px;
+          border-radius: 50%;
+          width: 61px;
+          height: 61px;
+        }
         &__box{
           margin-top: 30px;
           .col-lg-4 .d-flex{
@@ -85,14 +132,14 @@ body{
           li{
             padding: 10px;
             background: #FCFCFF;
-            border: 1px solid #EFEFFF;
+            border: 1px solid $grayColor;
             box-sizing: border-box;
             border-radius: 50%;
             margin-right: 10px;
           }
         }
         &__left-btns{
-          background: #EFEFFF;
+          background: $grayColor;
           border-radius: 30px;
           padding: 10px;
           display: flex;
@@ -106,7 +153,7 @@ body{
             padding: 10px 20px;
             margin-bottom: 0;
             cursor: pointer;
-            border: 1px solid #EFEFFF;
+            border: 1px solid $grayColor;
             box-sizing: border-box;
             box-shadow: 0px 10px 15px -10px rgba(2, 5, 132, 0.05);
             border-radius: 45px;
@@ -132,4 +179,7 @@ body{
       }
     }
   }
+}
+strong{
+  display: none;
 }

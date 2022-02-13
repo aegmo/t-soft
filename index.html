@@ -25,10 +25,10 @@
             <div class="col-lg-8 text-center">
                 <ul class="head-menu">
                     <li><a class="head-menu__active" href="/">Free designs</a></li>
-                    <li><a href="/">License</a></li>
-                    <li><a href="/">Articles</a></li>
-                    <li><a href="/">Contributors</a></li>
-                    <li><a href="/">About</a></li>
+                    <li><a href="#">License</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Contributors</a></li>
+                    <li><a href="#">About</a></li>
                 </ul>
             </div>
             <div class="col-lg-2 register">
@@ -40,10 +40,21 @@
             <div class="search-area">
                 <p class="search-area__title">Free UI resources for everyone</p>
                 <p class="search-area__desc">The largest database of 100% free UI components and designs<br> available in the formats popular by UI designers.</p>
+                <div class="search-area__search-box">
+                    <select name="categorySelect" id="categorySelect">
+                        <option value="Free Designs">Free Designs</option>
+                        <option value="Premium Designs">Premium Designs</option>
+                    </select>
+                    <input type="text" id="categorySearch" name="categorySearch" placeholder="Search" onkeyup="myFunction()">
+                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.1667 24.0833C19.6435 24.0833 24.0833 19.6435 24.0833 14.1667C24.0833 8.68984 19.6435 4.25 14.1667 4.25C8.68984 4.25 4.25 8.68984 4.25 14.1667C4.25 19.6435 8.68984 24.0833 14.1667 24.0833Z" stroke="#202142" stroke-width="2.125" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M29.75 29.75L21.25 21.25" stroke="#202142" stroke-width="2.125" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
             </div>
             <div class="result-area">
                 <div class="row  d-flex align-items-center">
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 col-8">
                         <div class="result-area__left-btns">
                             <input checked type="radio" id="latest" name="result">
                             <label for="latest">Latest</label>
@@ -141,9 +152,18 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row result-area__box">
+                <div class="row result-area__box" id="listBox">
                     <div class="col-lg-4">
+                        <strong>Free</strong>
                         <img src="assets/img/image-1.png" alt="" class="img-fluid">
+                        <svg width="30" height="29" viewBox="0 0 30 29" class="result-area__img-icon" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.43628 10.8197V2.66346L15.4988 0.961517L24.5613 2.66346V10.8197H6.43628Z" fill="#FFD54F"/>
+                            <path d="M6.43628 10.8197L15.4988 0.961517L24.5613 10.8197H6.43628Z" fill="#FFECB3"/>
+                            <path d="M0.998779 10.8197L15.4988 28.0385L29.9988 10.8197H0.998779Z" fill="#FFA000"/>
+                            <path d="M6.43628 10.8197L15.4988 28.0385L24.5613 10.8197H6.43628Z" fill="#FFCA28"/>
+                            <path d="M0.998779 10.8197L6.43628 2.66345V10.8197H0.998779Z" fill="#FFC107"/>
+                            <path d="M24.5613 2.66345V10.8197H29.9988L24.5613 2.66345Z" fill="#FFC107"/>
+                        </svg>
                         <div class="d-flex">
                             <div class="col-lg-6">
                                 <img src="assets/img/people.png" class="small-img" alt="">
@@ -172,7 +192,16 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
+                        <strong>Free</strong>
                         <img src="assets/img/image-2.png" alt="" class="img-fluid">
+                        <svg width="30" height="29" viewBox="0 0 30 29" class="result-area__img-icon" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.43628 10.8197V2.66346L15.4988 0.961517L24.5613 2.66346V10.8197H6.43628Z" fill="#FFD54F"/>
+                            <path d="M6.43628 10.8197L15.4988 0.961517L24.5613 10.8197H6.43628Z" fill="#FFECB3"/>
+                            <path d="M0.998779 10.8197L15.4988 28.0385L29.9988 10.8197H0.998779Z" fill="#FFA000"/>
+                            <path d="M6.43628 10.8197L15.4988 28.0385L24.5613 10.8197H6.43628Z" fill="#FFCA28"/>
+                            <path d="M0.998779 10.8197L6.43628 2.66345V10.8197H0.998779Z" fill="#FFC107"/>
+                            <path d="M24.5613 2.66345V10.8197H29.9988L24.5613 2.66345Z" fill="#FFC107"/>
+                        </svg>
                         <div class="d-flex">
                             <div class="col-lg-6">
                                 <img src="assets/img/people.png" class="small-img" alt="">
@@ -201,7 +230,16 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
+                        <strong>Premium</strong>
                         <img src="assets/img/image-3.png" alt="" class="img-fluid">
+                        <svg width="30" height="29" viewBox="0 0 30 29" class="result-area__img-icon" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.43628 10.8197V2.66346L15.4988 0.961517L24.5613 2.66346V10.8197H6.43628Z" fill="#FFD54F"/>
+                            <path d="M6.43628 10.8197L15.4988 0.961517L24.5613 10.8197H6.43628Z" fill="#FFECB3"/>
+                            <path d="M0.998779 10.8197L15.4988 28.0385L29.9988 10.8197H0.998779Z" fill="#FFA000"/>
+                            <path d="M6.43628 10.8197L15.4988 28.0385L24.5613 10.8197H6.43628Z" fill="#FFCA28"/>
+                            <path d="M0.998779 10.8197L6.43628 2.66345V10.8197H0.998779Z" fill="#FFC107"/>
+                            <path d="M24.5613 2.66345V10.8197H29.9988L24.5613 2.66345Z" fill="#FFC107"/>
+                        </svg>
                         <div class="d-flex">
                             <div class="col-lg-6">
                                 <img src="assets/img/people.png" class="small-img" alt="">

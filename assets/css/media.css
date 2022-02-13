@@ -31,6 +31,41 @@
   body header .register a:last-child {
     padding: 5px 10px !important;
   }
+  body main .search-area {
+    padding: 30px 15px !important;
+  }
+  body main .search-area__search-box {
+    display: flex !important;
+  }
+  body main .search-area__search-box select {
+    border: none;
+    min-height: 42px;
+  }
+  body main .search-area__search-box select:focus {
+    outline: none !important;
+  }
+  body main .search-area__search-box input {
+    margin-left: 7px !important;
+    padding-left: 30px !important;
+    min-height: 42px;
+    min-width: auto !important;
+  }
+  body main .search-area__search-box svg {
+    right: -7% !important;
+    padding: 5px !important;
+  }
+  body .result-area {
+    padding: 15px !important;
+  }
+  body .result-area__box .col-lg-4 {
+    margin-bottom: 15px;
+  }
+  body .result-area .row, body .result-area__icons {
+    justify-content: center !important;
+  }
+  body .result-area .head-menu {
+    margin: 15px 0;
+  }
 }
 
 /*# sourceMappingURL=media.css.map */
