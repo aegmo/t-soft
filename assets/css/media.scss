@@ -13,7 +13,7 @@
         li{
           margin:0 5px !important;
           a{
-            font-size: 12px;
+            font-size: 11px;
           }
         }
         &__active{
@@ -23,7 +23,7 @@
       .register{
         margin-top:10px;
         a{
-          font-size: 12px;
+          font-size: 11px;
           &:last-child{
             padding: 5px 10px !important;
           }
@@ -33,6 +33,12 @@
     main{
       .search-area{
         padding:30px 15px !important;
+        &__desc{
+          br{
+            display: none;
+          }
+          font-size: 14px !important;
+        }
         &__search-box{
           display: flex !important;
           select{
@@ -47,9 +53,10 @@
             padding-left: 30px !important;;
             min-height: 42px;
             min-width:auto !important;
+            width: 100%;
           }
           svg{
-            right: -7% !important;
+            right: -9% !important;
             padding: 5px !important;
           }
         }

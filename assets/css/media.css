@@ -17,7 +17,7 @@
     margin: 0 5px !important;
   }
   body header .head-menu li a {
-    font-size: 12px;
+    font-size: 11px;
   }
   body header .head-menu__active {
     padding: 5px !important;
@@ -26,13 +26,19 @@
     margin-top: 10px;
   }
   body header .register a {
-    font-size: 12px;
+    font-size: 11px;
   }
   body header .register a:last-child {
     padding: 5px 10px !important;
   }
   body main .search-area {
     padding: 30px 15px !important;
+  }
+  body main .search-area__desc {
+    font-size: 14px !important;
+  }
+  body main .search-area__desc br {
+    display: none;
   }
   body main .search-area__search-box {
     display: flex !important;
@@ -49,9 +55,10 @@
     padding-left: 30px !important;
     min-height: 42px;
     min-width: auto !important;
+    width: 100%;
   }
   body main .search-area__search-box svg {
-    right: -7% !important;
+    right: -9% !important;
     padding: 5px !important;
   }
   body .result-area {
