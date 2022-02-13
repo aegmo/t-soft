@@ -99,7 +99,7 @@ body section main .search-area__search-box input:focus {
 }
 body section main .search-area__search-box svg {
   position: absolute;
-  left: 0;
+  left: 0 !important;
   right: 26%;
   top: 19px;
   margin: auto;

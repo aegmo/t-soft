@@ -64,7 +64,7 @@
     justify-content: center !important;
   }
   body .result-area .head-menu {
-    margin: 15px 0;
+    margin: 15px 0 !important;
   }
 }
 
